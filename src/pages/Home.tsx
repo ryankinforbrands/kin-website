@@ -4,7 +4,7 @@ const marginX = { initial: "5", sm: "7", md: "9", lg: "11" };
 
 export function Home(): React.ReactElement {
   return (
-    <Flex direction="column" minHeight="100vh">
+    <Flex direction="column" minHeight="100vh" gap="4">
       <Flex role="banner" direction="column">
         <Flex
           align="center"
